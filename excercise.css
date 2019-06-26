@@ -47,3 +47,29 @@
 	height: 20px;
 	width: 20px;
 }
+
+
+.ex-6-img:hover {
+	filter: grayscale(100%);
+	/*filter: grayscale(1);*/
+	/*filter: grayscale();*/
+}
+
+
+.ex-7-img {
+	transition: filter 2s ease;
+}
+
+.ex-7-img:hover {
+	filter: invert() hue-rotate(180deg);
+}
+
+
+.ex-8-img {
+	transition: filter 2s ease, border-radius 3s linear;
+}
+
+.ex-8-img:hover {
+	filter: blur(1px) opacity(80%);
+	border-radius: 15px;
+}
